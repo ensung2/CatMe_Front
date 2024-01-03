@@ -1,3 +1,50 @@
 #qna {
     display: none;
+    width: 50rem;
+    min-height: 90vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.qBox {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.answerList {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: block;
+    border: 2px solid #e5e5e5;
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.answerList:hover, .answerList:focus {
+    background-color: #4c8acb;
+    color: #ffffff;
+
+}
+
+.status {
+    width: 80%;
+    height: 30px;
+    background-color: #efeae6;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.status_bar {
+    height: 100%;
+    background-color: #ef8f52;
+    border-radius: 15px;
 }
