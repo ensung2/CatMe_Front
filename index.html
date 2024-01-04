@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/result.css">
 </head>
 <body>
 <div class="container">
     <section id="main">
         <h1>나만 고양이 없어!</h1>
         <div class="main_img">
-            <img src="./img/IMG_1960_ensung.PNG" alt="메인 이미지">
+            <img src="img/image_0.PNG" alt="메인 이미지">
         </div>
         <p class="main_info">
             나와 잘 지낼 수 있는 고양이는 어떤 친구일까?<br>
@@ -34,14 +35,19 @@
             </div>
         </div>
 
-        <div class="qBox">
-
-        </div>
-        <div class="answerBox">
-
+        <div class="qBox"></div>
+        <div class="answerBox"></div>
+    </section>
+    <section id="result">
+        <h1>당신의 고양이는?</h1>
+        <div class="result_img"></div>
+        <div class="result_name"></div>
+        <div class="result_desc"></div>
+        <div class="button">
+            <button class="restart_btn" onclick="window.location.reload()">다시하기</button>
+            <button class="share_btn" onclick="">공유하기</button>
         </div>
     </section>
-    <section id="result"></section>
     <script src="./js/data.js"></script>
     <script src="./js/view.js" charset="UTF-8">
 

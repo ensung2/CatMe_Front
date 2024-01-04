@@ -1,73 +1,89 @@
+/*
+ 'forest',0
+'ragdoll',1
+ 'blue',2
+'munchikin',3
+'bengal',4
+ 'british',5
+ 'siamese',6
+ 'fold',7
+ 'sphynx',8
+ 'american',9
+ 'abyssinian',10
+ 'angora', 11
+ 'persian',12
+*/
+
 const qnaList = [
   {
     q: '1. 우리집을 간단하게 소개하자면?',
     a: [
-      { answer: '1인 가구에 적합한 자취방', type: ['forest', 'ragdoll', 'munchikin', 'british', 'sphynx', 'persian'] },
-      { answer: '2인도 충분한 높고 넓은 방', type: ['blue', 'bengal', 'siamese', 'fold', 'american', 'abyssinian', 'angora'] }
+      { answer: '1인 가구에 적합한 자취방', type: [0, 1, 3, 5, 8, 12] },
+      { answer: '2인도 충분한 높고 넓은 방', type: [2, 4, 6, 7, 9, 10, 11] }
     ]
   },
   {
     q: '2. 인형을 선물받았다, 내가 고른 인형은?',
     a: [
-      { answer: '왕 크니까 왕 귀여운 사이즈!', type: ['forest', 'ragdoll', 'blue', 'bengal', 'american', 'abyssinian', 'angora', 'persian'] },
-      { answer: '작고 소듕한 사이즈가 딱이야!', type: ['munchikin', 'british', 'siamese', 'fold', 'sphynx'] }
+      { answer: '왕 크니까 왕 귀여운 사이즈!', type: [0, 1, 2, 4, 9, 10, 11, 12] },
+      { answer: '작고 소듕한 사이즈가 딱이야!', type: [3, 5, 6, 7, 8] }
     ]
   },
   {
     q: '3. 알러지가 만연한 계절...지금 내 상태는?',
     a: [
-      { answer: '굉장히 튼튼한 기관지로 이상무!', type: ['ragdoll', 'blue', 'british', 'fold', 'angora', 'persian'] },
-      { answer: '콧물이 주르륵..만성 비염러', type: ['forest', 'munchikin', 'bengal', 'siamese', 'sphynx', 'american', 'abyssinian'] }
+      { answer: '굉장히 튼튼한 기관지로 이상무!', type: [1, 2, 5, 7, 11, 12] },
+      { answer: '콧물이 주르륵..만성 비염러', type: [0, 3, 4, 6, 8, 9, 10] }
     ]
   },
   {
     q: '4. 드디어 기다리던 주말이다! 당신의 계획은?',
     a: [
-      { answer: '집순이 모드 발동', type: ['ragdoll', 'blue', 'siamese', 'sphynx', 'american', 'persian'] },
-      { answer: '항시 외줄 춘비 완료!', type: ['forest', 'munchikin', 'bengal', 'british', 'fold', 'abyssinian', 'angora'] }
+      { answer: '집순이 모드 발동', type: [1, 2, 6, 8, 9, 12] },
+      { answer: '항시 외줄 춘비 완료!', type: [0, 3, 4, 5, 7, 10, 11] }
     ]
   },
   {
     q: '5. 친구가 집에 놀러왔다, 자고 간다면?',
     a: [
-      { answer: '바닥에 이불을 깔아준다.', type: ['munchikin', 'bengal', 'abyssinian', 'angora'] },
-      { answer: '침대에 베개를 하나 더 둔다.', type: ['forest', 'ragdoll', 'blue', 'british', 'siamese', 'fold', 'sphynx', 'american', 'persian']}
+      { answer: '바닥에 이불을 깔아준다.', type: [3, 4, 10, 11] },
+      { answer: '침대에 베개를 하나 더 둔다.', type: [0, 1, 2, 5, 6, 7, 8, 9, 12]}
     ]
   },
 
   {
     q: '6. 즐거운 금융치료 다음날, 오늘의 저녁밥은?',
     a: [
-      { answer: '아직 여유롭군, 배달 시켜!', type: ['forest', 'ragdoll', 'bengal', 'british', 'fold', 'sphynx', 'abyssinian', 'persian'] },
-      { answer: '이것저것 빠지고 나니..컵라면이나 먹자', type: ['blue', 'munchikin', 'siamese', 'american', 'angora'] }
+      { answer: '아직 여유롭군, 배달 시켜!', type: [0, 1, 4, 5, 7, 8, 10, 12] },
+      { answer: '이것저것 빠지고 나니..컵라면이나 먹자', type: [2, 3, 6, 9, 11] }
     ]
   },
   {
     q: '7. 소개팅을 받기로 했다. 당신의 취향은?',
     a: [
-      { answer: '애교 빼면 시체, 적극적인 사람', type: ['forest', 'ragdoll', 'blue', 'munchikin', 'fold', 'american'] },
-      { answer: '진중하면서 담백한 사람', type: ['bengal', 'british', 'siamese', 'sphynx', 'abyssinian', 'angora'] }
+      { answer: '애교 빼면 시체, 적극적인 사람', type: [0, 1, 2, 3, 7, 9] },
+      { answer: '진중하면서 담백한 사람', type: [4, 5, 6, 8, 10, 11] }
     ]
   },
   {
     q: '8. 체중계가 고장난 것 같다..내 살들 어떡하지?',
     a: [
-      { answer: '바로 PT 끊으러 간다. MOVE!', type: ['forest', 'bengal', 'siamese', 'abyssinian', 'angora'] },
-      { answer: '(TV를 틀며) 이따 산책이나 갈까..', type: ['ragdoll', 'blue', 'munchikin', 'british', 'fold', 'sphynx', 'american', 'angora'] }
+      { answer: '바로 PT 끊으러 간다. MOVE!', type: [0, 4, 6, 10, 11] },
+      { answer: '(TV를 틀며) 이따 산책이나 갈까..', type: [1, 2, 3, 5, 7, 8, 9, 11] }
     ]
   },
   {
     q: '9. "있잖아..아 아니야.." 나의 반응은?',
     a: [
-      { answer: '아니 왜 말을 하다말아 뭔데 뭔데?!?!', type: ['forest', 'ragdoll', 'siamese', 'fold', 'american', 'abyssinian', 'persian'] },
-      { answer: '중요한 말 아니였겠지, 넘어간다.', type: ['blue', 'munchikin', 'bengal', 'british', 'sphynx', 'angora'] }
+      { answer: '아니 왜 말을 하다말아 뭔데 뭔데?!?!', type: [0, 1, 6, 7, 9, 10, 12] },
+      { answer: '중요한 말 아니였겠지, 넘어간다.', type: [2, 3, 4, 5, 8, 11] }
     ]
   },
   {
     q: '10. 약속장소에 단짝이 다른 친구를 데리고 온다면?',
     a: [
-      { answer: '셋이 놀면 즐거움이 3배! ^ㅁ^', type: ['forest', 'ragdoll', 'munchikin', 'fold', 'sphynx', 'abyssinian'] },
-      { answer: '내,,친군데,,내껀데,,,(찌릿)', type: ['blue', 'bengal', 'british', 'siamese', 'american', 'angora', 'persian'] }
+      { answer: '셋이 놀면 즐거움이 3배! ^ㅁ^', type: [0, 1, 3, 7, 8, 10] },
+      { answer: '내,,친군데,,내껀데,,,(찌릿)', type: [2, 4, 5, 6, 9, 11, 12] }
     ]
   }
 ]
@@ -79,7 +95,7 @@ const infoList = [
   },
   {
     name: '인형 아닙니다. 고양이에요!, 랙돌',
-    desc : '봉제인형처럼 안아 올리면 몸에 힘을 뺴고 축 늘어진다. 길고 단단한 몸통에 짧고 강한 다리를 가진 종으로 매우 느긋한 성격에 사회적이며 사람을 좋아하여 아이들과 노는것을 좋아한다.'
+    desc : '봉제인형처럼 안아 올리면 몸에 힘을 빼고 축 늘어진다. 길고 단단한 몸통에 짧고 강한 다리를 가진 종으로 매우 느긋한 성격에 사회적이며 사람을 좋아하여 아이들과 노는것을 좋아한다.'
   },
   {
     name: '이불밖은 위험해!, 러시안블루',
