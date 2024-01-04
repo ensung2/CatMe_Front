@@ -1,11 +1,12 @@
 #main {
     width: 50rem;
     min-height: 90vh;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px 30px;
+    border: 2px solid #efefef;
 }
 
 #main h1 {
@@ -14,8 +15,8 @@
 }
 
 .main_img {
-    width: 30rem;
-    height: 20rem;
+    width: 25rem;
+    height: 21rem;
     margin: 0 auto;
     overflow: hidden;
     box-sizing: border-box;
@@ -25,7 +26,7 @@
 }
 .main_img img {
     display: inline-block;
-    width: 90%;
+    width: 100%;
 
 }
 

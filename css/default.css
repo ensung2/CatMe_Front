@@ -9,7 +9,8 @@ a {
     color: inherit
 }
 body {
-    background-color: #efeae6;
+    background: url(/img/bg.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -32,6 +33,7 @@ body {
 .start_btn:hover{
     background-color: white;
     color: #4c8acb;
+    cursor: pointer;
 }
 
 @keyframes fadeIn {

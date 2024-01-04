@@ -2,36 +2,38 @@
     display: none;
     width: 50rem;
     min-height: 90vh;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px 30px;
+    border: 2px solid #efefef;
 }
 
 .qBox {
-    background-color: whitesmoke;
     text-align: center;
     border-radius: 20px;
     margin: 50px 20px;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .answerList {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     border-radius: 20px;
+    border: none;
     display: block;
-    border: 2px solid #e5e5e5;
     width: 80%;
     margin: 20px auto;
     padding: 30px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .answerList:hover, .answerList:focus {
     background-color: #4c8acb;
     color: #ffffff;
+    cursor: pointer;
 
 }
 
