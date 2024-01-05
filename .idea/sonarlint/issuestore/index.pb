@@ -18,3 +18,5 @@ js/view.js,6\9\69d02bbde935f6a91265f1e92dc08bfb6b5e1c36
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 >
 css/result.css,c\e\ce39469024787b98f07b0ff0f7e70309fe9426f9
+;
+js/share.js,d\1\d1d83ad30fc5d93cb2e2102729858c7083238a59
