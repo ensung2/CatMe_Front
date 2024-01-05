@@ -21,7 +21,7 @@
     border: 2px solid #efefef;
 }
 
-#result h1 {
+#result h1, #shareResult h1 {
     font-size: 3.5rem;
     padding-bottom: 20px;
 }
@@ -56,13 +56,25 @@
     font-size: 1.5rem;
     border-radius: 5px;
 }
-
-.restart_btn {    background-color: #4c8acb; color: #ffffff; border: 2px solid #4c8acb;}
+.restart_btn2 {
+    width: 6rem;
+    padding: 3px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.restart_btn {background-color: #4c8acb; color: #ffffff; border: 2px solid #4c8acb;}
+.restart_btn2 {background-color: #cc3e7e; color: #ffffff; border: 2px solid #cc3e7e;}
 .share_btn {background-color: #ffcc00; color: #210d00; border: 2px solid #210d00;}
 
-.restart_btn:hover {
+.restart_btn:hover{
     background-color: white;
     color: #4c8acb;
+    cursor: pointer;
+}
+
+.restart_btn2:hover {
+    background-color: white;
+    color: #cc3e7e;
     cursor: pointer;
 }
 .share_btn:hover {
