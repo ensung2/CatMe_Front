@@ -10,6 +10,17 @@
     border: 2px solid #efefef;
 }
 
+#shareResult {
+    width: 50rem;
+    min-height: 90vh;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: 2px solid #efefef;
+}
+
 #result h1 {
     font-size: 3.5rem;
     padding-bottom: 20px;

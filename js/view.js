@@ -140,3 +140,8 @@ function copyUrl(){
         alert("주소가 복사되었습니다!");
     })
 }
+
+//스크립트를 이용한 홈으로 이동
+function comeBackHome() {
+    location.href="/index.html";
+}
